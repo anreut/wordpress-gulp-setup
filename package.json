@@ -23,8 +23,11 @@
     "gulp-rollup": "^2.16.2",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify-es": "^1.0.4",
+    "rollup-plugin-uglify-es": "0.0.1",
     "rollup-plugin-node-resolve": "^4.0.1",
     "yargs": "^13.2.2"
+  },
+  "babel": {
+    "presets": [ "@babel/preset-env" ]
   }
 }

@@ -14,8 +14,6 @@ Clone or download the files and place it to root directory of the theme.
 theme-name
 |   package.json
 |   gulpfile.babel.js
-|   .babelrc  
-|   .gitignore
 |
 └───src
 |   └───images
@@ -30,7 +28,7 @@ In `gulpfile.babel.js` file change proxy address
 ```javascript
 export const serve = (done) => {
     server.init({
-        // change this address
+        // change this address depends on your local server
         proxy: 'http://localhost:8888/your-wordpress-theme/'
     });
     done();
@@ -69,8 +67,6 @@ Your WordPress theme structure at this step should look like below:
 theme-name
 |   package.json
 |   gulpfile.babel.js
-|   .babelrc  
-|   .gitignore
 |
 └───dest
 |   └───images

@@ -8,7 +8,7 @@ import gulpif from 'gulp-if';
 import sourcemaps from 'gulp-sourcemaps';
 import imagemin from 'gulp-imagemin';
 import del from 'del';
-import uglify from 'gulp-uglify-es';
+import uglify from 'rollup-plugin-uglify-es';
 import rollup from 'gulp-rollup';
 import resolve from 'rollup-plugin-node-resolve';
 import browserSync from 'browser-sync';
@@ -72,10 +72,10 @@ export const scripts = () => {
                 resolve({
                     main: true,
                     browser: true
-                })
+                }),
+                uglify()
             ]
         }))
-        .pipe(gulpif(PRODUCTION, uglify()))
         .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
         .pipe(gulp.dest(paths.scripts.dest))
 };
@@ -99,14 +99,12 @@ export const watch = () => {
     gulp.watch('../**/*.php', reload)
 };
 
-// Build files for development (with watch mode)
 export const dev = (done) => {
-    return gulp.series(clean, gulp.parallel(styles, styles, images, copy, scripts), serve, watch)(done);
+    return gulp.series(clean, gulp.parallel(styles, images, copy, scripts), serve, watch)(done);
 };
 
-// Build files for production (without watch mode)
 export const build = (done) => {
-    return gulp.series(clean, gulp.parallel(styles, styles, images, copy, scripts))(done);
+    return gulp.series(clean, gulp.parallel(styles, images, copy, scripts))(done);
 };
 
 export default dev;
