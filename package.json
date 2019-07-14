@@ -1,0 +1,30 @@
+{
+  "name": "wordpress-gulp-setup",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.php",
+  "scripts": {
+    "start:dev": "gulp",
+    "build": "gulp build --prod"
+  },
+  "author": "Anastasia Reut",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "autoprefixer": "^9.5.0",
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rollup": "^2.16.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^1.0.4",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "yargs": "^13.2.2"
+  }
+}
