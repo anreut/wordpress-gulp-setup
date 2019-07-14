@@ -1,14 +1,14 @@
-#Build WordPress themes with Gulp
+# Build WordPress themes with Gulp
 
 This is a boilerplate implementation of Gulp for WordPress. I've created it for personal use, but feel free to use it with your projects.
 
-###What's inside?
+### What's inside?
 - [Gulp 4](https://gulpjs.com/) - Task runner 
 - [Sass](https://sass-lang.com/) - a CSS preprocessor
 - [Rollup](https://rollupjs.org/guide/en/) - a JavaScript Modules Bundler
 - [Babel (soon)](https://babeljs.io/) - JavaScript ES6 to ES5 compiler
 
-###Installation
+### Installation
 Clone or download the files and place it to root directory of the theme.
 ```
 theme-name
@@ -37,7 +37,7 @@ export const serve = (done) => {
 };
 ```
 
-###Development
+### Development
 Gulp is used to compile and optimize theme's scripts, stylesheets, and images.
 Before being able to build theme you have to resolve required dependencies.
 
@@ -61,7 +61,7 @@ $ npm run start:dev
 $ npm run build
 ```
 
-###Theme structure
+### Theme structure
 After you run Gulp development mode it creates /dest directory with all compiled assets. Make sure to serve your static assets from this directory (not /src directory).
 
 Your WordPress theme structure at this step should look like below:
@@ -87,7 +87,7 @@ theme-name
 |   ... other php files
 ```
 
-###Notes
+### Notes
 I keep main `style.css` in the root directory of the theme with a header comment section only.
 Other styles I keep in /src/sass and then serve from /dest/css directory. 
 
