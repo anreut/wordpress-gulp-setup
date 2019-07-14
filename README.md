@@ -62,7 +62,7 @@ $ npm run build
 ```
 
 ### Theme structure
-After you run Gulp development mode it creates /dest directory with all compiled assets. Make sure to serve your static assets from this directory (not /src directory).
+After you run Gulp development mode it creates `/dest` directory with all compiled assets. Make sure to serve your static assets from this directory (not `/src` directory).
 
 Your WordPress theme structure at this step should look like below:
 ```
