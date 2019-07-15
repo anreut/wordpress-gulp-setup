@@ -6,7 +6,7 @@ This is a boilerplate implementation of Gulp for WordPress. I've created it for 
 - [Gulp 4](https://gulpjs.com/) - Task runner 
 - [Sass](https://sass-lang.com/) - a CSS preprocessor
 - [Rollup](https://rollupjs.org/guide/en/) - a JavaScript Modules Bundler
-- [Babel (soon)](https://babeljs.io/) - JavaScript ES6 to ES5 compiler
+- [Babel](https://babeljs.io/) - JavaScript ES6 to ES5 compiler
 
 ### Installation
 Clone or download the files and place it to root directory of the theme.
