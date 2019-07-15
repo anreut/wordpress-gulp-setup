@@ -22,7 +22,7 @@ theme-name
 |
 |   style.css
 |   index.php
-|   ... other php files
+|   ...
 ```
 In `gulpfile.babel.js` file change proxy address
 ```javascript
@@ -80,7 +80,7 @@ theme-name
 |
 |   style.css
 |   index.php
-|   ... other php files
+|   ...
 ```
 
 ### Notes
