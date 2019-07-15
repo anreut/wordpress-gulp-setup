@@ -1,4 +1,4 @@
 import hello from './module.js';
 
-hello();
+hello('Hello from bundle.js');
 
