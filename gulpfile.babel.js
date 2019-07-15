@@ -67,7 +67,7 @@ export const scripts = () => {
         .pipe(rollup({
             allowRealFiles: true,
             format: 'iife',
-            input: [paths.scripts.src],
+            input: paths.scripts.src,
             plugins: [
                 resolve({
                     main: true,
