@@ -85,7 +85,7 @@ theme-name
 
 ### Notes
 I keep main `style.css` in the root directory of the theme with a header comment section only.
-Other styles are saved in `/src/sass` and served from `/dest/css directory`. 
+Other styles are saved in `/src/sass` and served from `/dest/css` directory. 
 
 Happy coding! 😎
 
