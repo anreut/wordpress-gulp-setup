@@ -1,6 +1,6 @@
 # Build WordPress themes with Gulp
 
-This is Gupl boilerplate setup for WordPress theme. I've created it for personal use, but feel free to use it with your projects.
+This is Gulp boilerplate setup for WordPress theme. I've created it for personal use, but feel free to use it with your projects.
 
 ### What's inside?
 - [Gulp 4](https://gulpjs.com/) - Task runner 
