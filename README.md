@@ -1,6 +1,6 @@
 # Build WordPress themes with Gulp
 
-This is a boilerplate implementation of Gulp for WordPress. I've created it for personal use, but feel free to use it with your projects.
+This is Gupl boilerplate setup for WordPress theme. I've created it for personal use, but feel free to use it with your projects.
 
 ### What's inside?
 - [Gulp 4](https://gulpjs.com/) - Task runner 
@@ -9,7 +9,7 @@ This is a boilerplate implementation of Gulp for WordPress. I've created it for 
 - [Babel](https://babeljs.io/) - JavaScript ES6 to ES5 compiler
 
 ### Installation
-Clone or download the files and place it to root directory of the theme.
+Clone or download the files and place it to the root directory of the theme.
 ```
 theme-name
 |   package.json
@@ -85,7 +85,7 @@ theme-name
 
 ### Notes
 I keep main `style.css` in the root directory of the theme with a header comment section only.
-Other styles I keep in /src/sass and then serve from /dest/css directory. 
+Other styles are saved in `/src/sass` and served from `/dest/css directory`. 
 
 Happy coding! 😎
 
